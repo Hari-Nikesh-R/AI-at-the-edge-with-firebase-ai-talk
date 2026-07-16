@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Agentic Frontends — Live Demo</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div>
+    <h1>Agentic Frontends — Live Demo</h1>
+    <p>Don't send events. Send intelligence.</p>
+  </div>
+  <button id="reset-btn">Reset Demo</button>
+</header>
+<main>
+  <section class="panel">
+    <h2>Traditional Analytics</h2>
+    <div class="subtitle">What a typical backend receives from the app</div>
+    <pre class="raw-events">["search","view","view","compare","review","cart"]</pre>
+    <p class="caption">Can a business user understand anything from this? Not really.</p>
+  </section>
+
+  <section class="panel">
+    <h2>Agentic Frontend Insights (live)</h2>
+    <div class="subtitle">What the on-device Frontend Agent sends instead</div>
+    <div class="counter" id="counter">0 insights received / 0 session summaries received</div>
+
+    <div class="section-heading">Personas &amp; Intent</div>
+    <div class="card-list" id="insights-list">
+      <div class="empty">Waiting for insights from the Android app…</div>
+    </div>
+
+    <div class="section-heading">Session Summaries</div>
+    <div class="card-list" id="summaries-list">
+      <div class="empty">Waiting for session summaries…</div>
+    </div>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+.miniforge/
+__pycache__/
+*.pyc

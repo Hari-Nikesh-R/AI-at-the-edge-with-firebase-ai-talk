@@ -1,0 +1,15 @@
+{
+  "name": "agentic-frontend-backend",
+  "version": "1.0.0",
+  "description": "Mock Firebase backend for the Agentic Frontends demo — receives and stores on-device Frontend Agent insights.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
